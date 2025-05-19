@@ -117,3 +117,21 @@ header {
     text-align: center;
 }
 
+.quote {
+    background: #f7f5ec;
+    padding: 6rem 10rem;
+}
+
+.quote-text {
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.quote-by {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
