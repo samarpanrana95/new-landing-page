@@ -7,4 +7,74 @@
 
 body {
     min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    padding: 2rem 6rem;
+    color: white;
+    text-shadow: 1px 1px 2px aliceblue;
+}
+
+.header-top {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.logo {
+    font-weight: bold;
+    width: max-content;
+    display: inline-block;
+    margin-right: auto;
+    font-size: 2rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    margin: 0 2rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-bottom {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header-text {
+    flex: 6 1 0;
+}
+
+.header-text h2 {
+    text-shadow: 1px 1px 2px aliceblue;
+    margin-bottom: 1rem;
+}
+
+.header-text h3 {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.header-img {
+    flex: 4 1 0;
+    margin-left: 2rem;
+}
+
+.header-bottom button {
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 10px;
+    background: #1c4ae0;
+    color: white;
+    font-size: 1.15rem;
+    padding: 1rem 2rem;
 }
