@@ -135,3 +135,37 @@ header {
     font-weight: bold;
     font-size: 1.5rem;
 }
+
+.sign {
+    margin: 4rem 6rem;
+    background: #1c4ae0;
+    padding: 2rem 14rem;
+    border-radius: 8px;
+}
+
+.sign-text {
+    color: white;
+}
+
+.sign-text-top {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.sign-text-bottom {
+    display: block;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.sign-button {
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto 0;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+}
